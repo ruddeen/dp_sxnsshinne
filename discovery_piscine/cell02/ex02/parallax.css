@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+}
+
+.page1 h1{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+}
+.page1 {
+    background-image: url(https://s.isanook.com/jo/0/ud/491/2455497/newjeans-2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page2 h1{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: rgb(0, 0, 0);
+}
+.page2{
+    background-color: rgb(255, 255, 255);
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+.page3 h1{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+
+}
+.page3 {
+    background-image: url(https://s.isanook.com/jo/0/ud/491/2458431/newjeans.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

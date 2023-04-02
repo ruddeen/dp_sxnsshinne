@@ -1,0 +1,109 @@
+
+p{ 
+    font-size: 30px; 
+}
+
+
+
+
+.card {
+	background-color: rgb(246, 205, 252); 
+	 box-shadow: 0px 8px 10px 4px rgba(133, 53, 153, 0.514);
+	 text-align: center;
+     padding: 60px;
+     margin: 30px;
+	 margin-top: 60px;
+}
+
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h3{
+    font-size: 25px;
+    text-align: left;
+  }
+  h2 {
+    font-size: 100px;
+    word-break: break-all;
+    color: rgb(126, 1, 126);
+  }
+  h4 {
+    font-size: 100px;
+    word-break: break-all;
+    color: white;
+  } 
+  .row {
+    margin: 8px -16px;
+    display: flex;
+    align-items: stretch;
+  }
+  
+  /* Add padding BETWEEN each column */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+    align-items: stretch;
+    display: flex;
+  /* block long tao tao kun */
+  
+  }
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+   
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+  
+    }
+  }
+  .exp img {
+	width: 20%;
+	height: auto;
+	border-radius: 10px;
+	margin: 10px;
+}
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+/* make top bar */
